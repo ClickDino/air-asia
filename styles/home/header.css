@@ -1,0 +1,15 @@
+.header {
+padding-top: 27px;
+width: 100%;
+margin-bottom: 135px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+.header__menu {
+  display: flex;
+  align-items:center;
+  gap: 30px;
+}
+

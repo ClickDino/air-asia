@@ -1,0 +1,9 @@
+.logo {
+    display: flex;
+}
+.logo__img {
+    transition: all .4s ease-in;
+}
+.logo__img:hover {
+    transform: rotate(10deg);
+}

@@ -1,0 +1,33 @@
+.news {
+  margin-bottom: 124px;
+}
+.news__section {
+  width: 1139px;
+  height: 600px;
+}
+.news__list {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 5px;
+}
+.news__item {
+  /* width: 553px; */
+  min-height: 394px;
+  /* flex: 1; */
+}
+.single-news {
+  border-radius: 4px;
+  overflow: hidden;
+}
+.single-news:last-child {
+  margin-right: 0;
+}
+.single-news__text-content {
+  padding: 10px;
+  /* min-height: 140px; */
+}
+.single-news__title {
+  font-style: normal;
+  font-weight: 700;
+}
+
